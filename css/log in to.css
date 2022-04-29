@@ -1,0 +1,50 @@
+/* 登入 */
+
+body {
+    width: 100%;
+}
+
+content img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.login {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    font-size: 24px;
+    border-radius: 8px;
+    text-align: center;
+    transform: translateY(-50%);
+    background-color: aliceblue;
+}
+
+.login ul {
+    margin-top: 120px;
+}
+
+.login ul li {
+    line-height: 50px;
+}
+
+.login ul li input {
+    width: 220px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.login ul li button {
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.login ul li #check {
+    width: 40px;
+    height: 30px;
+    vertical-align: middle;
+}

@@ -1,0 +1,79 @@
+                                    body {
+                                        width: 100%;
+                                    }
+                                    
+                                    header {
+                                        display: flex;
+                                        height: 50px;
+                                        border-bottom: 1px solid;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        background: url('../picture/fengjing.gif');
+                                    }
+                                    
+                                    header div a {
+                                        vertical-align: top;
+                                        line-height: 50px;
+                                    }
+                                    
+                                    .hear {
+                                        width: 100px;
+                                        height: 50px;
+                                        background: url(../picture/icon.png) no-repeat center/contain;
+                                    }
+                                    
+                                    .content {
+                                        display: flex;
+                                    }
+                                    
+                                    .cl {
+                                        border: 2px solid #000;
+                                    }
+                                    
+                                    ul {
+                                        width: 200px;
+                                        height: 100vh;
+                                        border-right: 1px solid;
+                                    }
+                                    
+                                    textarea {
+                                        height: 100vh;
+                                        overflow-y: hidden;
+                                        padding: 20px;
+                                        flex: 1 0 auto;
+                                        border: none;
+                                    }
+                                    
+                                    .content ul li {
+                                        display: flex;
+                                        width: 100%;
+                                        height: 40px;
+                                        justify-content: center;
+                                        text-align: center;
+                                        line-height: 40px;
+                                        border-radius: 5px;
+                                        cursor: pointer;
+                                        border: 1px solid #000;
+                                        background-color: rgb(225, 222, 222);
+                                    }
+                                    
+                                    .content ul li span:nth-child(2) {
+                                        width: 30px;
+                                        height: 30px;
+                                    }
+                                    
+                                    .content ul .cl {
+                                        width: 100%;
+                                        height: 40px;
+                                        border-radius: 5px;
+                                        text-align: center;
+                                        line-height: 40px;
+                                        border: 2px solid #000;
+                                        background-color: rgb(225, 222, 222);
+                                    }
+                                    
+                                    #code {
+                                        width: 160px;
+                                        height: 23px;
+                                        border-radius: 3px;
+                                    }
